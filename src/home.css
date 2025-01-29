@@ -1,0 +1,119 @@
+
+*
+{
+  margin: 0;
+}
+
+  .navdiv
+  {
+    display:flex;
+   
+    position:fixed;
+    top:0;
+    right:0;
+  background-color: rgba(253,255,242,255);
+    z-index: 1000;
+    width: 100%;
+    
+
+  }
+  .navul{
+    display: flex;
+    justify-content: flex-end; 
+    width: 100%; 
+  }
+  .navdiv a,li{
+    margin: 0 15px;
+    text-decoration: none;
+    padding-right:30px;
+    list-style:none;
+    color:rgba(146,147,105,255);
+    transition: 0.3 ease 0.3 color;
+
+    
+  }
+  li:hover{
+    color: rgba(58,189,194,255);
+    cursor: pointer;
+  }
+  .navdiv nav{
+    width: 100%;
+    padding-top:18px;
+    padding-bottom: 18px;
+
+  }
+  .navul .logli {
+    margin-right: auto; 
+    padding-left: 15px;
+    font-size: 24px; 
+    
+      font-family: "anek-latin-variable",sans-serif;
+      font-variation-settings: 'wght' 500, 'wdth' 100;
+   
+  }
+
+  /* .homediv {
+    background-image: url("./assets/images/fullback.avif");
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    height: 100vh; 
+    overflow: hidden;
+  
+    
+  } */
+  .imgdiv
+  {
+ margin-top:0;
+
+  }
+  .imgdiv img{
+    border-style: solid;
+    height: 370px;
+    width: 300px;
+    border-radius: 50%;
+    margin-top: 100px;
+  }
+  .contdiv
+  {
+    display: flex;
+    justify-content:center;
+    margin-top:30px;
+  }
+  .contdiv a,i{
+   padding-left: 50px;
+   padding-right:10px;
+   font-size: 30px;
+   color: whitesmoke;
+   text-decoration: none;
+   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   transition: transform 0.3s ease, color 0.3s ease;
+  }
+  .contdiv i:hover{
+    transform: translateY(-10px);
+    color:rgb(236, 175, 21);
+    
+  }
+  .contdiv a:hover{
+    transform: translateY(-10px);
+    color:rgb(236, 175, 21);
+    
+  }
+
+  .aboutme p
+  {
+    color:ghostwhite;
+    text-align: center;
+    margin-left:350px;
+    margin-right:350px;
+    font-size: 18px;
+    font-weight: bolder;
+    
+  }
+.aboutme
+{
+  display: flex;
+  justify-content: center;
+  
+}
